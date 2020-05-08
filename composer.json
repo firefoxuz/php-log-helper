@@ -1,0 +1,17 @@
+{
+  "name": "tester",
+  "description": "Testing for php",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PHPDebuger\\": "src/PHPDebuger"
+    }
+  }
+}
